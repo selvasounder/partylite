@@ -1,0 +1,55 @@
+#opc-sidebar {
+    background-color: #d6d1d1;
+    padding: 0 0 25px;
+}
+
+.opc-sidebar .title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.calc {
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.calc #display {
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+    background: #fff;
+    text-align: right;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.5s;
+}
+
+.calc .clear {
+    background: red;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 56px;
+}
+
+.calc input {
+    cursor: pointer;
+    font-size: 25px;
+    background: #333;
+    color: #fff;
+    width: 62px;
+    height: 62px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.calc input:hover {
+    background: lightgray;
+    color: red;
+}
+
+.calc .finalresult {
+    background: #001010;
+}
